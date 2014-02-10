@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="com.phonegap.plugins.blackKeyboard"
+    version="0.0.1">
+
+    <name>BlackKeyboard</name>
+    <author>Andrew Lively</author>
+    <license>Apache</license>
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="KeyboardColor.js" name="keyboardColor">
+            <clobbers target="plugin.keyboardColor" />
+        </js-module>
+
+        <config-file target="config.xml" parent="/*">
+            <feature name="keyboardColor">
+                <param name="ios-package" value="keyboardColor"/>
+            </feature>
+        </config-file>
+        <header-file src="src/ios/AsyncImageView.h" />
+        <header-file src="src/ios/CDVAnnotation.h" />
+        <header-file src="src/ios/BlackKeyboardPlugin.h" />
+        <source-file src="src/ios/AsyncImageView.m" />
+        <source-file src="src/ios/CDVAnnotation.m" />
+        <source-file src="src/ios/BlackKeyboardPlugin.m" />
+    </platform>
+</plugin>
