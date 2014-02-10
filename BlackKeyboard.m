@@ -6,16 +6,10 @@
 //
 //
 
-#import "BlackKeyboardPlugin.h"
+#import "BlackKeyboard.h"
 #import "CDVAnnotation.h"
 
-@implementation BlackKeyboardPlugin
-
--(CDVPlugin*) initWithWebView:(UIWebView*)theWebView
-{
-    self = (MapKitView*)[super initWithWebView:theWebView];
-    return self;
-}
+@implementation BlackKeyboard
 
 -(void)makeKeyboardDark {
     [[UITextField appearance] setKeyboardAppearance: UIKeyboardAppearanceDark];

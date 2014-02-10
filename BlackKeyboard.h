@@ -10,7 +10,7 @@
 
 #import <Cordova/CDVPlugin.h>
 
-@interface BlackKeyboardPlugin : NSObject
+@interface BlackKeyboard : CDVPlugin
 
 -(void)makeKeyboardDark;
 

@@ -17,11 +17,9 @@
                 <param name="ios-package" value="keyboardColor"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/AsyncImageView.h" />
         <header-file src="src/ios/CDVAnnotation.h" />
-        <header-file src="src/ios/BlackKeyboardPlugin.h" />
-        <source-file src="src/ios/AsyncImageView.m" />
+        <header-file src="src/ios/BlackKeyboard.h" />
         <source-file src="src/ios/CDVAnnotation.m" />
-        <source-file src="src/ios/BlackKeyboardPlugin.m" />
+        <source-file src="src/ios/BlackKeyboard.m" />
     </platform>
 </plugin>
