@@ -17,9 +17,7 @@
                 <param name="ios-package" value="keyboardColor"/>
             </feature>
         </config-file>
-        <header-file src="CDVAnnotation.h" />
         <header-file src="BlackKeyboard.h" />
-        <source-file src="CDVAnnotation.m" />
         <source-file src="BlackKeyboard.m" />
     </platform>
 </plugin>
